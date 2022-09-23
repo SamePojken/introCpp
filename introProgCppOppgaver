@@ -1,18 +1,22 @@
 #include <iostream>
 using namespace std;
 
-int i = 0;
-char c = 3;
-double d = 69.21;
-long l = 41223;
-float f = 4120;
-
-
+int i = 3;
+char c = 1;
+long l = 400;
+float f = 41;
+double d = 55;
 
 
 int main()
 {
 
+	
+	cout << " Size of int: " << sizeof(int) << "\n";
+	cout << " Size of char: " << sizeof(char) << "\n";
+	cout << " Size of long: " << sizeof(long) << "\n";
+	cout << " Size of float: " << sizeof(float) << "\n";
+	cout << " Size of double :" << sizeof(double) << "\n";
 
 
 
@@ -24,7 +28,7 @@ int main()
 	*/
 
 
-	//oppg 3
+	/*oppg 3
 	string y;
 	cout << "What is your username? ";
 	cin >> y;
@@ -49,9 +53,8 @@ int main()
 
 
 	}
-	//oppg 7
-
-
+	oppg 7*/
+	 
 
 
 
