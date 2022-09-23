@@ -1,0 +1,61 @@
+#include <iostream>
+using namespace std;
+
+int i = 0;
+char c = 3;
+double d = 69.21;
+long l = 41223;
+float f = 4120;
+
+
+
+
+int main()
+{
+
+
+
+
+
+
+	/* oppg 1
+ cout << "Hello World!";
+		return 0;
+	*/
+
+
+	//oppg 3
+	string y;
+	cout << "What is your username? ";
+	cin >> y;
+	cout << " Greetings! " << y << "\n";
+	
+
+
+	//oppg 5
+	for (int i = 0; i <= 10; i++)
+	{
+		cout << " Greetings! " << y << "\n";
+	
+		    //oppg 6
+			if (i == 5)
+			{
+				break;
+			}
+			cout << " I don't want to read your name! " << y << "\n";
+		
+		return 0;
+		
+
+
+	}
+	//oppg 7
+
+
+
+
+
+
+
+
+}
